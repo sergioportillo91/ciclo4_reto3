@@ -26,12 +26,4 @@ public class Ciclo4Reto3Application {
     }
 
 
-    public void run(String... args) throws Exception {
-        crudRepository.deleteAll();
-        userCrudRepository.deleteAll();
-        orderCrudRepository.deleteAll();
-        supplementsCrudRepository.deleteAll();
-
-    }
-
 }
