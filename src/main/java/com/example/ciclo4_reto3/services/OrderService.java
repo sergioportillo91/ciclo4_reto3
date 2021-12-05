@@ -77,9 +77,9 @@ public class OrderService {
     }
 
 //    //Ordenes de pedido asociadas a los asesores de una zona
-//    public List<Order> findByZone(String zona) {
-//        return orderRepository.findByZone(zona);
-//    }
+ public List<Order> findByZone(String zona) {
+       return orderRepository.findByZone(zona);
+  }
 //
 //    public List<Order> ordersSalesManByDate(String dateStr, int id) {
 //        return orderRepository.ordersSalesManByDate(dateStr, id);
